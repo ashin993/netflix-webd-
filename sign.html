@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="stylesheet" href="css/sign.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="background">
+            <img id="logo" src="img/logo.png" alt="Netflix">
+
+            <div class="loginbox">
+                <span>
+                    <h1>Sign in</h1>
+
+                    <form action="/signIn" method="post">
+                        <input type="text" id="email" name="email" placeholder="Email or phone number">
+                        <input type="text" id="pass" name="password" placeholder="password">
+                        <button type="submit" id="submit">Sign in</button><br>
+                        <input type="checkbox" id="remember" name="remember" />
+                        <label for="remember">Remember me</label>
+                    </form>
+                    <h5>Need help?</h5>
+                </span>
+                <div class="loginbox_footer">
+                    <p>New to netflix?
+                        <a id="signup" href="signup.html">Sign up Now?</a>
+                    </p><br>
+                    <h5>This page is protected by Google reCAPTCHA to <br>ensure you're not a bot.
+                        <a href="https://policies.google.com/privacy">Learn more.</a>
+                    </h5>
+                </div>
+            </div>
+            <div class="footer">
+                <h4>Questions? Call 000-800-919-1694</h4><br>
+                <div class="links">
+                    <ul>
+                        <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+                        <li><a href="https://www.netflix.com/in/">cookie prefrence</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://help.netflix.com/en/">Help Center</a></li>
+                        <li><a href="https://help.netflix.com/legal/corpinfo">Corporate information</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://help.netflix.com/legal/termsofuse">Terms Of Use</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+                    </ul>
+                    <div><select data-uia="language-picker" class="ui-select medium" id="lang-switcher-select"
+                            tabindex="0" placeholder="lang-switcher" fdprocessedid="quh9wu">
+                            <option selected="" lang="en" value="/in/login" data-language="en" data-country="IN">English
+                            </option>
+                            <option lang="hi" value="/in-hi/login" data-language="hi" data-country="IN">हिन्दी</option>
+                        </select></div><br><br><br><br><br>
+                </div>
+            </div>
+        </div>
+        <script src="C:\Users\manas kumar\OneDrive\Desktop\netflix-master\js\sign.js"></script>
+</body>
+
+</html>
